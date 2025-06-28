@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.box h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.box .btn1 {
+    width: 223px;
+    height: 56px;
+    border: 1px solid #00000080;
+    background-color: inherit;
+    color: black;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.box .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 270px;
+    height: 332px;
+    background: #F5F5F5;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.card .btn {
+    width: 270px;
+    height: 41px;
+    background: #000000;
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.card h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: black;
+    margin-top: 46px;
+    margin-bottom: 8px;
+    text-align: left;
+
+}
+
+.card p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #DB4444;
+    text-align: left;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card img{
+    width: 100%;
+    height: 190px;
+}
